@@ -1,6 +1,6 @@
 let first_name = "Victoria";
 let last_name = " Ike";
-let height = " 5'11inch";
+let height = 6;
 let country = " Nigeria";
 
 console.log(
