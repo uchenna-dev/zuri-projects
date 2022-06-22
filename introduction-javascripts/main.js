@@ -1,19 +1,6 @@
-function calc() {
-  var a = parseInt(document.querySelector("#value1").value);
-  var b = parseInt(document.querySelector("#value2").value);
-  var op = document.querySelector("#operator").value;
-  var calculate;
+let first_name = "Ike"
+let last_name = "Victoria"
+let country = "Nigeria"
+let height = 5
 
-  if (op == "add") {
-    calculate = a + b;
-  } else if (op == "sub") {
-    calculate = a - b;
-  } else if (op == "mul") {
-    calculate = a * b;
-  } else if (op == "div") {
-    calculate = a / b;
-  }
-
-  // console.log(calculate);
-  document.querySelector("#result").innerHTML = calculate;
-}
+console.log("Hello " + first_name + " " + last_name + " " + country + " " + height);
